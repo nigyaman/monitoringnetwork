@@ -11,7 +11,8 @@ Sebuah tool monitoring dan pelaporan jaringan komprehensif yang dirancang untuk 
 ## 📚 Dokumentasi
 
 - **[⚡ Quick Start Guide](QUICKSTART.md)** - Setup cepat dalam 5 menit
-- **[🔒 Security Policy](SECURITY.md)** - Panduan keamanan dan best practices
+- **[� Sample Output](examples/)** - Contoh hasil report (data di-mask)
+- **[�🔒 Security Policy](SECURITY.md)** - Panduan keamanan dan best practices
 - **[🤝 Contributing](CONTRIBUTING.md)** - Cara berkontribusi ke project
 - **[📜 License](LICENSE)** - MIT License
 

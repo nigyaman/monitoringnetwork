@@ -25,12 +25,27 @@ config.local.*
 *.xlsx
 *.xls
 !template*.xlsx
+!examples/**/*.xlsx
+!examples/**/sample*.xlsx
 
 # Report folders
 reports/
 output/
 FPC-Occupancy_Report_*/
 *_Report_*/
+
+# ==================
+# EXAMPLES & SCREENSHOTS
+# ==================
+# Allow safe examples folder for documentation
+# But exclude any production data
+!examples/
+!examples/**/*.png
+!examples/**/*.jpg
+!examples/**/*.jpeg
+!examples/**/*.md
+examples/**/production_*
+examples/**/*_actual.*
 
 # ==================
 # LOGS & DEBUG
