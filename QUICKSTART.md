@@ -4,8 +4,8 @@
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/wokding/monitoing.git
-cd monitoing
+git clone https://github.com/wokding/monitoringnetwork.git
+cd monitoringnetwork
 ```
 
 ### 2. Install Dependencies

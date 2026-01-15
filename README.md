@@ -63,8 +63,8 @@ pip install paramiko openpyxl
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/wokding/monitoing.git
-cd monitoing
+git clone https://github.com/wokding/monitoringnetwork.git
+cd monitoringnetwork
 ```
 
 ### 2. Install Dependensi Python
@@ -485,7 +485,7 @@ git ls-files | grep -E "_telkom_access.xml|\.env$|\.log$"
 ## 📁 Struktur Project
 
 ```
-monitoing/
+monitoringnetwork/
 ├── .gitignore                      # File dan folder yang diabaikan Git
 ├── README.md                       # Dokumentasi project
 ├── fpc_utilisasi.py               # Script utama monitoring

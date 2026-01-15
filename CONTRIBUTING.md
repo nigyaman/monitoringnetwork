@@ -8,8 +8,8 @@ Terima kasih atas minat Anda untuk berkontribusi! Dokumen ini berisi panduan unt
 ```bash
 # Fork repository di GitHub
 # Kemudian clone fork Anda
-git clone https://github.com/YOUR_USERNAME/monitoing.git
-cd monitoing
+git clone https://github.com/YOUR_USERNAME/monitoringnetwork.git
+cd monitoringnetwork
 ```
 
 ### 2. Setup Development Environment
