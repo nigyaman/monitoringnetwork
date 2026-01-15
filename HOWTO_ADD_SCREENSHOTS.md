@@ -4,9 +4,9 @@
 
 ### Step 1️⃣: Buka File Excel
 ```powershell
-# Buka file Excel hasil monitoring
-cd C:\Users\adenaufalr\TELKOM_Script-v25
-start FPC-Occupancy_Report_20Sep2025_0731.xlsx
+# Buka file Excel hasil monitoring dari folder project Anda
+cd <path-to-your-project>
+start FPC-Occupancy_Report_*.xlsx
 ```
 
 ### Step 2️⃣: Screenshot Sheet yang Ingin Ditampilkan
@@ -53,7 +53,7 @@ mspaint
 
 ```powershell
 # Save dengan nama yang jelas
-# Lokasi: C:\Users\adenaufalr\TELKOM_Script-v25\examples\screenshots\
+# Lokasi: <your-project>/examples/screenshots/
 
 # Nama file:
 # - dashboard_summary.png
@@ -77,6 +77,9 @@ Save file PNG ke folder: `examples\screenshots\`
 ### Step 6️⃣: Commit & Push ke GitHub
 
 ```powershell
+# Navigasi ke folder project
+cd <your-project-path>
+
 # Add screenshot
 git add examples/screenshots/*.png
 
@@ -165,12 +168,12 @@ JNP1234567890             →  JNPXXXXXXXXX
 
 ```powershell
 # 1. Buka Excel
-start FPC-Occupancy_Report_20Sep2025_0731.xlsx
+start FPC-Occupancy_Report_*.xlsx
 
 # 2. Screenshot (Win+Shift+S), edit di Paint, save ke examples\screenshots\
 
-# 3. Add & commit
-cd C:\Users\adenaufalr\TELKOM_Script-v25
+# 3. Add & commit dari folder project Anda
+cd <your-project-path>
 git add examples/screenshots/*.png
 git commit -m "docs: add sample screenshots (data masked)"
 git push
