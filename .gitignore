@@ -1,0 +1,156 @@
+# ============================================
+# TELKOM Network Monitoring Tool - GitIgnore
+# ============================================
+
+# ==================
+# SENSITIVE FILES
+# ==================
+# Credential files - NEVER commit these!
+_telkom_access.xml
+*.credentials
+*.secret
+*.key
+*.pem
+
+# Environment files
+.env
+.env.local
+.env.*.local
+config.local.*
+
+# ==================
+# OUTPUT & REPORTS
+# ==================
+# Excel reports (contain operational data)
+*.xlsx
+*.xls
+!template*.xlsx
+
+# Report folders
+reports/
+output/
+FPC-Occupancy_Report_*/
+*_Report_*/
+
+# ==================
+# LOGS & DEBUG
+# ==================
+# Log files
+*.log
+logs/
+debug/
+debug_*/
+chassis_missing_modules.log
+ssh_debug.log
+connection_errors.log
+
+# ==================
+# PYTHON
+# ==================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+virtualenv/
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# ==================
+# EDITORS & IDEs
+# ==================
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# ==================
+# OPERATING SYSTEM
+# ==================
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+.directory
+.Trash-*
+
+# ==================
+# TEMPORARY FILES
+# ==================
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+*~
+
+# ==================
+# CUSTOM
+# ==================
+# Add your custom ignore patterns here
+# node_inventory/
+# backup/

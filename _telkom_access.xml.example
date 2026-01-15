@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    TELKOM Network Access Configuration Template
+    ============================================
+    
+    SECURITY NOTICE:
+    - This is a TEMPLATE file. DO NOT commit the actual _telkom_access.xml
+    - Copy this file to _telkom_access.xml and fill in your actual credentials
+    - The _telkom_access.xml file is automatically ignored by git
+    
+    SETUP INSTRUCTIONS:
+    1. Copy this file: cp _telkom_access.xml.example _telkom_access.xml
+    2. Edit _telkom_access.xml with your actual credentials
+    3. Ensure file permissions are restricted: chmod 600 _telkom_access.xml (Linux/Mac)
+    
+    CONFIGURATION DETAILS:
+    - tacacs-server: IP addresses of TACACS+ authentication servers
+    - tacacs-user/pass: Credentials for TACACS+ authentication
+    - router-user/pass: Credentials for router/switch access
+-->
+<telkom-access>
+    <tacacs-list>
+        <!-- Add your TACACS+ server IP addresses here -->
+        <tacacs-server>10.x.x.x</tacacs-server>
+        <tacacs-server>10.x.x.x</tacacs-server>
+    </tacacs-list>
+    <tacacs-access>
+        <!-- TACACS+ Authentication Credentials -->
+        <tacacs-user>your-tacacs-username</tacacs-user>
+        <tacacs-pass>your-tacacs-password</tacacs-pass>
+    </tacacs-access>
+    <router-access>
+        <!-- Router/Network Device Credentials -->
+        <router-user>your-router-username</router-user>
+        <router-pass>your-router-password</router-pass>
+    </router-access>
+</telkom-access>
